@@ -5,9 +5,6 @@
 - [Description](#description)<br>
 - [Links](#links)<br>
 - [Visuals](#visuals)<br>
-- [Installation](#Installation)<br>
-- [Usage](#Usage)<br>
-- [Contributing](#Contributing)<br>
 - [License](#license)<br>
 - [Questions](#Questions)<br>
 
@@ -22,16 +19,6 @@ A portfolio made by yours truly to showcase projects that have been completed du
 
 ## Visuals
 
-## Installation
-
-To run this application, in your integrated terminal, use the command npm install and npm run build for necessary dependencies. 
-
-## Usage
-
-
-## Contributing
-
-No need for contributing at this time. :)
 
 ## License
 
