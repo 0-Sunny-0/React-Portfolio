@@ -1,17 +1,15 @@
 // We have to bring in the required import from the react-router-dom
 import Nav from './components/Nav';
 import { Outlet } from 'react-router-dom';
-// import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
-  console.log({Nav});
-  
-
   return (
     <>
     <Nav />
     <Outlet />
+    <Footer />
     </>
   );
 }
