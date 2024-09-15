@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <AboutMe />
+        element: <AboutHer />
       },
       {
         path: '/portfolio',
