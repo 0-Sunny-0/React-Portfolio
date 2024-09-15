@@ -10,5 +10,5 @@ export default function Nav({ links }) {
         </div>
       </nav>
     );
-}
+};
 
