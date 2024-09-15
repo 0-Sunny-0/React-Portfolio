@@ -9,7 +9,8 @@ import './index.css';
 // importing in the pages that the router will use to show the proper views.
 // Remember to import ALL from pages folders
 import App from './App';
-import AboutHer from "./pages/AboutHer/AboutHer";
+import Home from './pages/Home/Home';
+// import AboutHer from "./pages/AboutHer/AboutHer";
 // import Portfolio from "./pages/Portfolio/Portfolio";
 // import Contact from "./pages/Contact/Contact";
 // import Resume from "./pages/Resume/Resume";
@@ -22,20 +23,24 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <AboutHer />
+        element: <Home />
       },
-    //   {
-    //     path: '/portfolio',
-    //     element: <Portfolio />,
-    //   },
-    //   {
-    //     path: './contact',
-    //     element: <Contact />,
-    //   },
-    //   {
-    //     path: './resume',
-    //     element: <Resume />,
-    //   },
+      // {
+      //   path: '/abouther',
+      //   element: <AboutHer />
+      // },
+      // {
+      //   path: '/portfolio',
+      //   element: <Portfolio />,
+      // },
+      // {
+      //   path: './contact',
+      //   element: <Contact />,
+      // },
+      // {
+      //   path: './resume',
+      //   element: <Resume />,
+      // },
     ],
   },
 ]);

@@ -5,9 +5,9 @@
 function AboutHer() {
     return (
         <div>
-            Sample text
+          sample text
         </div>
-    )
+    );
 };
 
 export default AboutHer
