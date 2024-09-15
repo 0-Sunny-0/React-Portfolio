@@ -9,10 +9,10 @@ import './index.css';
 // importing in the pages that the router will use to show the proper views.
 // Remember to import ALL from pages folders
 import App from './App';
-// import AboutMe from "";
-// import Portfolio from "";
-// import Contact from "";
-// import Resume from "":
+import AboutHer from "./pages/AboutHer/AboutHer";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Contact from "./pages/Contact/Contact";
+import Resume from "./pages/Resume/Resume";
 
 // Define accessible routes, and which components respond to which URLs
 const router = createBrowserRouter([
