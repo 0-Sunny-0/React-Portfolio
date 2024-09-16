@@ -1,0 +1,20 @@
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 50%;
+}
+
+#submitBtn {
+    padding-top: 15px;
+}
+
+#btnSubmit {
+    background-color: #0489a0;
+}
