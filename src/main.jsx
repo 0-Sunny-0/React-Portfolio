@@ -12,8 +12,8 @@ import App from './App';
 import Home from './pages/Home/Home';
 import AboutHer from "./pages/AboutHer/AboutHer";
 import Portfolio from "./pages/Portfolio/Portfolio";
-// import Contact from "./pages/Contact/Contact";
-// import Resume from "./pages/Resume/Resume";
+import Contact from "./pages/Contact/Contact";
+import Resume from "./pages/Resume/Resume";
 
 // Define accessible routes, and which components respond to which URLs
 const router = createBrowserRouter([
@@ -33,14 +33,14 @@ const router = createBrowserRouter([
         path: '/portfolio',
         element: <Portfolio />,
       },
-      // {
-      //   path: './contact',
-      //   element: <Contact />,
-      // },
-      // {
-      //   path: './resume',
-      //   element: <Resume />,
-      // },
+      {
+        path: '/contact',
+        element: <Contact />,
+      },
+      {
+        path: '/resume',
+        element: <Resume />,
+      },
     ],
   },
 ]);

@@ -1,12 +1,12 @@
 // Add necessary import for css
-import './Contact.css'
+import './Contact.css';
 
 function Contact() {
     return (
-        <div>
-            Sample text
+        <div id='container'>
+            <p>Sample text</p>
         </div>
-    )
+    );
 };
 
 export default Contact
