@@ -9,6 +9,13 @@
     margin: 50px;
 }
 
+#lilfoot {
+    padding-top: 10px;
+    padding-bottom: 2px;
+    width: 75%;
+    margin: auto;
+}
+
 h1, h2 {
     color: rgb(255, 255, 255);
     font-size: medium;

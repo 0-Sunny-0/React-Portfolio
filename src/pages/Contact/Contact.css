@@ -6,9 +6,16 @@
 
 #container {
     padding-top: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 18px;
     margin: auto;
     width: 50%;
+}
+
+#form {
+    padding-top: 10px;
+    padding-bottom: 125px;
+    width: 75%;
+    margin: auto;
 }
 
 #submitBtn {

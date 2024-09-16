@@ -5,9 +5,9 @@ import ResumePDF from '../../assets/images/resume/Resume.pdf';
 function Resume() {
     return (
         <div id='container'>
-            <div id=''>
-                <p>Looking for a copy of my resume? Download it by clicking the below link!</p>
-                <p><a href={ResumePDF} download>Download Me!</a></p>
+            <div id='paragraph'>
+                <p>Thank you for visiting my little side of the digital world. I'm glad you took a moment to visit. If you'd like to view my resume, please feel free to click the below link and download it!</p>
+                <p><a href={ResumePDF} download>Sunny-0's Resume!</a></p>
             </div>
         </div>
     );

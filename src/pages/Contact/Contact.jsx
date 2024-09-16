@@ -4,6 +4,7 @@ import './Contact.css';
 function Contact() {
     return (
         <div id='container'>
+            <div id='form'>
             <div id='contactForm' className="form-floating mb-3">
                 <input type="name" className="form-control" id="floatingInput" placeholder="Name?" />
                 <label for="floatingInput">Name:</label>
@@ -18,6 +19,7 @@ function Contact() {
             </div>
             <div id='submitBtn'>
                 <button id='btnSubmit' className="btn btn-primary w-100 py-2 align-items-center" type="submit">Submit</button>
+            </div>
             </div>
         </div>
     );

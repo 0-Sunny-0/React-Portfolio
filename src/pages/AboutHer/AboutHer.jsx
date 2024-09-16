@@ -5,11 +5,13 @@ import AIME from '../../assets/images/me/Me-AI.jpg';
 function AboutHer() {
     return (
         <div id='container'>
+          <div id='lilfoot'>
           <p>
             <h1>A few words to say about myself even though I actually don't like talking about myself.</h1>
           </p>
           <div id='container-2'>
           <img src={AIME} width="300px" id='image' /><br></br>
+          </div>
           </div>
         </div>
     );
