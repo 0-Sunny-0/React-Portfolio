@@ -1,6 +1,5 @@
 // Import css and any necessary images that will be used on this page
 import './AboutHer.css';
-// import bunz from '../../assets/images/me/bunz.jpg';
 import AIME from '../../assets/images/me/Me-AI.jpg';
 
 function AboutHer() {

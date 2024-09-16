@@ -11,7 +11,7 @@ import './index.css';
 import App from './App';
 import Home from './pages/Home/Home';
 import AboutHer from "./pages/AboutHer/AboutHer";
-// import Portfolio from "./pages/Portfolio/Portfolio";
+import Portfolio from "./pages/Portfolio/Portfolio";
 // import Contact from "./pages/Contact/Contact";
 // import Resume from "./pages/Resume/Resume";
 
@@ -29,10 +29,10 @@ const router = createBrowserRouter([
         path: '/abouther',
         element: <AboutHer />
       },
-      // {
-      //   path: '/portfolio',
-      //   element: <Portfolio />,
-      // },
+      {
+        path: '/portfolio',
+        element: <Portfolio />,
+      },
       // {
       //   path: './contact',
       //   element: <Contact />,

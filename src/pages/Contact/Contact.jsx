@@ -1,5 +1,5 @@
 // Add necessary import for css
-// import './Contact.css'
+import './Contact.css'
 
 function Contact() {
     return (
