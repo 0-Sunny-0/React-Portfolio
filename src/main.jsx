@@ -10,7 +10,7 @@ import './index.css';
 // Remember to import ALL from pages folders
 import App from './App';
 import Home from './pages/Home/Home';
-// import AboutHer from "./pages/AboutHer/AboutHer";
+import AboutHer from "./pages/AboutHer/AboutHer";
 // import Portfolio from "./pages/Portfolio/Portfolio";
 // import Contact from "./pages/Contact/Contact";
 // import Resume from "./pages/Resume/Resume";
@@ -25,10 +25,10 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />
       },
-      // {
-      //   path: '/abouther',
-      //   element: <AboutHer />
-      // },
+      {
+        path: '/abouther',
+        element: <AboutHer />
+      },
       // {
       //   path: '/portfolio',
       //   element: <Portfolio />,
