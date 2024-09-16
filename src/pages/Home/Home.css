@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: black;
 }
 
 body {
@@ -11,6 +10,8 @@ body {
 
 #container {
     padding-top: 10px;
+    width: 75%;
+    margin: auto;
 }
 
 #image {
@@ -19,6 +20,6 @@ body {
 }
 
 h1, h2 {
-    color: rgb(175, 11, 240);
+    color: rgb(255, 255, 255);
     font-size: medium;
 }
