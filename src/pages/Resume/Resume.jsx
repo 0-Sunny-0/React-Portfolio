@@ -4,8 +4,11 @@ import ResumePDF from '../../assets/images/resume/Resume.pdf';
 
 function Resume() {
     return (
-        <div>
-            Sample text
+        <div id='container'>
+            <div id=''>
+                <p>Looking for a copy of my resume? Download it by clicking the below link!</p>
+                <p><a href={ResumePDF} download>Download Me!</a></p>
+            </div>
         </div>
     );
 };
