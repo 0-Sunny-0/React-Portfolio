@@ -20,6 +20,10 @@ A portfolio made by yours truly to showcase projects that have been completed du
 ## Visuals
 
 <img src="./src/assets/images/visuals/Landing.png" alt="Portfolio landing page" />
+<img src="./src/assets/images/visuals/AboutHer.png" alt="AboutHer page" />
+<img src="./src/assets/images/visuals/Portfolio.png" alt="Portfolio page" />
+<img src="./src/assets/images/visuals/Contact.png" alt="Contact page" />
+<img src="./src/assets/images/visuals/Resume.png" alt="Resume page to download" />
 
 ## License
 
