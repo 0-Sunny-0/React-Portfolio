@@ -19,6 +19,7 @@ A portfolio made by yours truly to showcase projects that have been completed du
 
 ## Visuals
 
+<img src="./src/assets/images/visuals/Landing.png" alt="Portfolio landing page" />
 
 ## License
 
