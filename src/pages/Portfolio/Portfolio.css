@@ -21,3 +21,9 @@ a.btn {
     border-color: rgb(0, 0, 0);
     color: rgb(255, 208, 0);
 }
+
+a.btn:hover {
+    background-color: #0489a0;
+    border-color: rgb(0, 0, 0);
+    color: rgb(255, 208, 0);
+}
